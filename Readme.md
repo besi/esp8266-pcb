@@ -27,6 +27,21 @@ So I can for example run `jlc C123455` to download both the symbol and the footp
     # FET for switching between VUSB and VBAT
     # Zener Diode D3?
     
+    jlc C22975 # 2k R4
+    jlc C19666 # 4.7uF
+    jlc C25804 # 10k
+    jlc C155590 # Shottkydiode D3
+    jlc C15127 # p channel mosfet
+    jlc C15849 # 1uF
+    jlc C23630 # 2.2uF
+    jlc C19702 # 10uF
+    jlc C14663 # 100nF
+    jlc C255886 # 26Mhz oscilator
+    jlc C1634 # 10pF
+    jlc C22790 # 12k
+    jlc C8218 # 200 Ohm
+    jlc C519111 # 5.6pF
+        
 Credits
 -------
 
