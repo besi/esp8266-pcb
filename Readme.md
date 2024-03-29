@@ -1,6 +1,8 @@
 ESP8266 PCB
 ===========
 
+![](esp8266-pcb.png)
+
 JLCPCB Footprints
 -----------------
 
@@ -24,8 +26,8 @@ So I can for example run `jlc C123455` to download both the symbol and the footp
     jlc C97521 # flash chip (alternative: C5127618)
     jlc C295747 # JST battery connector
     jlc C963206 # slide switch
-    # FET for switching between VUSB and VBAT
-    # Zener Diode D3?
+    jlc C15127 # FET for switching between VUSB and VBAT
+    jlc C155590 # Zener Diode D3
     
     jlc C22975 # 2k R4
     jlc C19666 # 4.7uF
