@@ -3418,7 +3418,7 @@
   (gr_text "#255" (at 101.926511 123.68047 270) (layer "F.SilkS") (tstamp 95694535-68b9-4424-b85e-d6f05fdc7608)
     (effects (font (size 1.2 1.2) (thickness 0.1)) (justify left bottom))
   )
-  (gr_text "29.03.24\nv1.0\n" (at 102.52466 148.439238 270) (layer "F.SilkS") (tstamp 97091c9f-50f7-4702-8e60-87d8ac6cdf6c)
+  (gr_text "29.03.24\ne483d9\nv1.0" (at 101.748067 148.735457 270) (layer "F.SilkS") (tstamp 97091c9f-50f7-4702-8e60-87d8ac6cdf6c)
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify right bottom))
   )
   (gr_text "13" (at 86.755259 125.73 270) (layer "F.SilkS") (tstamp b20616c6-aaa6-4833-9da6-dee022f49bc5)
