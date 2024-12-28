@@ -1,6 +1,19 @@
 ESP8266 PCB
 ===========
 
+
+Flashing
+--------
+
+The 16MB flash chip need some special settings when flashing:
+
+	esptool.py -p /dev/cu.usbserial-1412440 \
+    -c esp8266 -b 460800 write_flash -fm dio \
+    --flash_size=16MB \
+    0x0000 ~/Downloads/ESP8266_GENERIC-20240222-v1.22.2.bin \
+    0xffc000 ~/esp/esp-idf/components/esptool_py/esptool/test/images/esp8266_sdk/esp_init_data_default.bin
+
+
 ![](esp8266-pcb.png)
 
 JLCPCB Footprints
