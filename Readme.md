@@ -61,3 +61,4 @@ Credits
 -------
 
 - I used the wonderful [JLC2KiCadLib](https://pypi.org/project/JLC2KiCadLib/) to get the footprints from the JLC components.
+- This design was inspired by the [Sparkfun ESP8266 Thing](https://www.sparkfun.com/sparkfun-esp8266-thing.html)
